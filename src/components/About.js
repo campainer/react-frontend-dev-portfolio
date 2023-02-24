@@ -1,20 +1,16 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import dockerIcon from "@iconify/icons-logos/docker-icon";
+import cPP from "@iconify/icons-logos/c-plusplus";
 
 class About extends Component {
   render() {
-    if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
-    }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
-
     return (
       <section id="about">
         <div className="col-md-12">
@@ -27,11 +23,11 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
-                    src={profilepic}
+                    src={require("./images/myProfile.jpeg")}
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={dockerIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
@@ -39,7 +35,7 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={cPP}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>

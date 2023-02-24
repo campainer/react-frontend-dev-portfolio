@@ -1,68 +1,74 @@
 {
-    "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Anand Verma",
+    "titles": [
+      "Competetive Programmer",
+      "Candidate Master at Codeforces",
+      "6 Star Coder at Codechef",
+      "Front-end Developer",
+      "DevOps Engineer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/campainer",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.codeforces.com/profile/alkido",
+        "class": "fas fa-users-class"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "95"
+      },
+      {
+        "name": "Kubernetes",
+        "class": "devicon-kubernetes-plain",
+        "level": "95"
+      },
+      {
+        "name": "C++",
+        "class": "devicon-cplusplus-plain",
+        "level": "95"
+      },
+      {
+        "name": "Flask",
+        "class": "devicon-flask-plain",
+        "level": "95"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "95"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      }
+    ]
   }
+}
